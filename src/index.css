@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .homebg1{
+    background-image: url("../src/assets/homebg1.png");
+} */
+
+.bricolage-grotesque heading {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 700; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bricolage-grotesque ubuntu {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .ubuntu-semibold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  @keyframes shine {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+  
+  .shine-effect {
+    background-image: linear-gradient(
+      to right,
+      #FD8901 0%,
+      #FD8901 40%,
+      #FFFFFF 50%,
+      #FD8901 60%,
+      #FD8901 100%
+    );
+    background-size: 300% auto;
+    animation: shine 5s linear infinite alternate;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      background-color: #000000;
+      border-radius: 50%;
+      padding: 10px;
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+      background-color: #706f6c; 
+  }
+
+  .whatsapp-button {
+    /* Your existing styles */
+    background-image: linear-gradient(
+      to right,
+      #3DDA3A 0%,
+      #3DDA3A 40%,
+      #FFFFFF 50%,
+      #3DDA3A 60%,
+      #3DDA3A 100%
+    );
+    background-size: 300% auto;
+    animation: shine 5s linear infinite alternate;
+  }
+
+  .phone-button {
+    background-image: linear-gradient(
+      to right,
+      #2196F3 0%,
+      #2196F3 40%,
+      #FFFFFF 50%,
+      #2196F3 60%,
+      #2196F3 100%
+    );
+    background-size: 300% auto;
+    animation: shine 5s linear infinite alternate;
+  }
+  
